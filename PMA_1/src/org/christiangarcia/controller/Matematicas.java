@@ -38,4 +38,8 @@ public double diasMinutos(double dias) {
 public double restoDivision(double dividendo, souble divisor) {
     return dividendo % divisor;
 }
+    
+public int potenciaCubo(int lado) {
+    return lado * lado * lado;
+}
 }
