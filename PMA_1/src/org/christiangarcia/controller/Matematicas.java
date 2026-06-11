@@ -10,3 +10,7 @@ public class Matematicas {
 public double areaTriangulo(double base, double altura) {
     return (base * altura)/2.0;
 }
+
+public double promedio(double n1, double n2, double n3) {
+    return (n1 + n2 + n3)/3.0;
+}
