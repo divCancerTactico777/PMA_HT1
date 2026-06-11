@@ -35,3 +35,7 @@ public double diasMinutos(double dias) {
     return dias * 144.0;
     }
     
+public double restoDivision(double dividendo, souble divisor) {
+    return dividendo % divisor;
+}
+}
