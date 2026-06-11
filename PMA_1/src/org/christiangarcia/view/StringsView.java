@@ -4,11 +4,10 @@
  */
 package org.christiangarcia.view;
 
-import java.util.Scanner;
-import org.christiangarcia.controller.Booleans;
-import org.christiangarcia.controller.Strings;
-import org.christiangarcia.controller.Matematicas;
-
-public class MenuPrincipal {
-
+/**
+ *
+ * @author HP
+ */
+public class StringsView {
+    
 }
