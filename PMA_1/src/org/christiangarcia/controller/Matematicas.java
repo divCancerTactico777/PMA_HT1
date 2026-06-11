@@ -26,3 +26,8 @@ public double perimetroCirculo(double radio) {
 public double volumenCilindro(double radio, double h) {
     return Math.PI * Math.pow(radio, 2) * altura;
 }
+
+public double hipotenusa(double c1, double c2) {
+    return Math.sqrt(Math.pow(c1, 2) + Math.pow(c2, 2);
+    {
+                     
