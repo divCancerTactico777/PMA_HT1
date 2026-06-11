@@ -6,3 +6,7 @@ public class Matematicas {
     public double calcularSalario(double tiempo, double pagoHora) {
         return tiempo * pagoHora;
 }
+    
+public double areaTriangulo(double base, double altura) {
+    return (base * altura)/2.0;
+}
