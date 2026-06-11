@@ -22,4 +22,7 @@ public  double calculadoraGradosCaF(double celsius) {
 public double perimetroCirculo(double radio) {
     return 2.0 * Math.PI * radio;
 }
-    
+
+public double volumenCilindro(double radio, double h) {
+    return Math.PI * Math.pow(radio, 2) * altura;
+}
