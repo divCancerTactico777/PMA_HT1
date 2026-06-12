@@ -15,4 +15,8 @@ public boolean Or(boolean a, boolean b) {
 public boolean NOT(boolean dato) {
     return !dato;
 }
+public boolean parPositivo (int x) {
+return (x > 0) & (x / 2 == 0);
+}
+    
 }
