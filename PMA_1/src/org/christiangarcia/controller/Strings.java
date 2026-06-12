@@ -16,6 +16,16 @@ public class Strings {
         return texto.toLowerCase();
     }
     public int buscarChar(String texto, char caracter) {
-         return texto.indexOf(caracter);   
+         return texto.indexOf(caracter);
+    }
+    public int contarVocales(String texto) {
+        int contador = 0;
+        String textoMin = texto.toLowerCase();
+        for (int i = 0; i < textoMin.charAt(i);
+             if (letra == 'a' | letra = 'e' | if (letra == 'i' | letra = 'o' | if (letra == 'u') {
+            contador++;
+        }
+    }
+    return contador;
 }
 }
