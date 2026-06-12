@@ -27,7 +27,7 @@ public class Strings {
         }
     }
     return contador;
-}
+    }
     public int contarPalabras(String texto) {
         String textoCompleto = texto.trim();
         if (textoCompleto.isEmpty());
@@ -35,9 +35,11 @@ public class Strings {
     }
     String[] palabras = textoCompleto.split("\\s+");
     return palabras.length;
-}
+    }
     public String reemplazarChar(String texto, char base, char nuevo) {
       return texto.replace(base, nuevo);  
     }
+    public boolean stringVacia(String texto) {
+        return texto.trim().isEmpty();
+    }
 }
-
