@@ -6,13 +6,13 @@ public class Strings {
     public int longitudCadena(String texto) {
         return texto.lenght();
     }
-    public int mayusculas(String texto) { 
+    public String mayusculas(String texto) { 
         return texto.toUpperCase();
     }
-    public int invertirString(String texto) {
+    public String invertirString(String texto) {
         return new Stringbuilder(texto).reverse().toString();
     }
-    public int minusculas(String texto) {
+    public String minusculas(String texto) {
         return texto.toLowerCase();
     }
     public int buscarChar(String texto, char caracter) {
@@ -27,5 +27,13 @@ public class Strings {
         }
     }
     return contador;
+}
+    public int contarPalabras(String texto) {
+        String textoCompleto = texto.trim();
+        if (textoCompleto.isEmpty());
+            return 0;
+    }
+    String[] palabras = textoCompleto.split("\\s+");
+    return palabras.length;
 }
 }
