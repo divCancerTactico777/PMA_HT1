@@ -30,5 +30,6 @@ public boolean Acceso(boolean contraCorrecta, boolean tk) {
 public boolean descuento(int edad, boolean miembro) {
     return (edad >= 65) | miembro;
 }
-    
+public boolean multiplo3y5(int num) {
+    return (num % 3 = 0) & (num % 5 = 0);
 }
