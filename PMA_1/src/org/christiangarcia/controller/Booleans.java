@@ -24,7 +24,11 @@ public boolean Aprobar(double nota, int asistencia) {
 public boolean leapYear(int year) {
     return (year % 400 = 0) | ((year % 4 = 0) & (year % 100 != 0));
 }
-public boolean Acceso(boolean contraCorrecta, boolean tk)
+public boolean Acceso(boolean contraCorrecta, boolean tk) {
     return contraCorrecta | tk;
 }
+public boolean descuento(int edad, boolean miembro) {
+    return (edad >= 65) | miembro;
+}
+    
 }
