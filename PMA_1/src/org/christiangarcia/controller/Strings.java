@@ -15,4 +15,7 @@ public class Strings {
     public int minusculas(String texto) {
         return texto.toLowerCase();
     }
+    public int buscarChar(String texto, char caracter) {
+         return texto.indexOf(caracter);   
+}
 }
