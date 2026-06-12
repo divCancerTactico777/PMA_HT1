@@ -16,9 +16,12 @@ public boolean NOT(boolean dato) {
     return !dato;
 }
 public boolean parPositivo (int x) {
-return (x > 0) & (x / 2 == 0);
+    return (x > 0) & (x / 2 == 0);
 }
 public boolean Aprobar(double nota, int asistencia) {
     return (nota >= 60) & (asistencia >= 80);
+}
+public boolean leapYear(int year) {
+    return (year % 400 = 0) | ((year % 4 = 0) & (year % 100 != 0));
 }
 }
