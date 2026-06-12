@@ -9,7 +9,10 @@ public boolean mayorEdad(int edad) {
 public boolean AND(boolean a, boolean b) {
     return a & b;
 }
-public boolean Or(boolean a, boolean b)
+public boolean Or(boolean a, boolean b) {
     return a | b;
+}
+public boolean NOT(boolean dato) {
+    return !dato;
 }
 }
