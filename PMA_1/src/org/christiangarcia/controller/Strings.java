@@ -36,4 +36,8 @@ public class Strings {
     String[] palabras = textoCompleto.split("\\s+");
     return palabras.length;
 }
+    public String reemplazarChar(String texto, char base, char nuevo) {
+      return texto.replace(base, nuevo);  
+    }
 }
+
