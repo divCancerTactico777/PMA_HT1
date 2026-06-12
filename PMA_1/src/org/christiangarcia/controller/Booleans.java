@@ -22,7 +22,7 @@ public boolean Aprobar(double nota, int asistencia) {
     return (nota >= 60) & (asistencia >= 80);
 }
 public boolean leapYear(int year) {
-    return (year % 400 = 0) | ((year % 4 = 0) & (year % 100 != 0));
+    return (year % 400 == 0) | ((year % 4 == 0) & (year % 100 != 0));
 }
 public boolean Acceso(boolean contraCorrecta, boolean tk) {
     return contraCorrecta | tk;
@@ -31,5 +31,6 @@ public boolean descuento(int edad, boolean miembro) {
     return (edad >= 65) | miembro;
 }
 public boolean multiplo3y5(int num) {
-    return (num % 3 = 0) & (num % 5 = 0);
+    return (num % 3 == 0) & (num % 5 == 0);
+}
 }
