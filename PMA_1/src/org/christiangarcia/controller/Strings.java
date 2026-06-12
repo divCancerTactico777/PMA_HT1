@@ -9,5 +9,7 @@ public class Strings {
     public int mayusculas(String texto) { 
         return texto.toUpperCase();
     }
-    
+    public int invertirString(String texto) {
+        return new Stringbuilder(texto).reverse().toString();
+    }
 }
