@@ -12,4 +12,7 @@ public class Strings {
     public int invertirString(String texto) {
         return new Stringbuilder(texto).reverse().toString();
     }
+    public int minusculas(String texto) {
+        return texto.toLowerCase();
+    }
 }
