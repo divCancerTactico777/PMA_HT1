@@ -42,4 +42,6 @@ public class Strings {
     public boolean stringVacia(String texto) {
         return texto.trim().isEmpty();
     }
+    public String concactenarStrings(String c1, String c2) {
+        return c1 + " " + c2;
 }
