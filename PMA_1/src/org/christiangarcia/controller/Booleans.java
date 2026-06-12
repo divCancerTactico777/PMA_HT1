@@ -18,5 +18,7 @@ public boolean NOT(boolean dato) {
 public boolean parPositivo (int x) {
 return (x > 0) & (x / 2 == 0);
 }
-    
+public boolean Aprobar(double nota, int asistencia) {
+    return (nota >= 60) & (asistencia >= 80);
+}
 }
