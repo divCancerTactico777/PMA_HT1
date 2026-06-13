@@ -17,9 +17,9 @@ public class MatematicasView {
     }
     public int menuMatematicas() {
         System.out.println("--- Operaciones Matemáticas ---");
-        System.out.println("1. Calculadora de Salario");
+        System.out.println("1. Calcular Salario");
         System.out.println("2. Area de un Triangulo");
-        System.out.println("3. Promedio Academico");
+        System.out.println("3. Promedio");
         System.out.println("4. Convertir de Temperatura");
         System.out.println("5. Perimetro de Circulo");
         System.out.println("6 Volumen de cilindro");
